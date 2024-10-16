@@ -13,4 +13,11 @@ _________________________________
 
 ![image](https://github.com/user-attachments/assets/cb5e9f47-6af7-449f-bfc0-635fce6a004b) ![image](https://github.com/user-attachments/assets/f10f5176-67ac-4c60-95ea-1e668ff0a2a3)
 
-There is a minor visual bug when only one file is placed, the progress bar stops in the middle, i don't understand why, but it works fine.
+### Other Infos
+- There is a minor visual bug when only one file is placed, the progress bar stops in the middle, i don't understand why, but it works fine.
+- To enable the application to be converted from .exe (in 1 file), this piece of code has been added and is used for each image:  ![image](https://github.com/user-attachments/assets/3f42e798-d8ec-4705-8097-16533fa59aa9)
+
+  **QtGui.QIcon(resource_path("_img/checked.png"))**
+
+
+
