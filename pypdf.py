@@ -11,7 +11,6 @@ from functools import lru_cache
 from api_pdf import ConvertImage
 
 
-# Permet d'utiliser les image en faisant un .exe --onefile
 def resource_path(relative_path):
     try:
         base_path = sys._MEIPASS
